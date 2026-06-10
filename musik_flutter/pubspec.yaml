@@ -1,0 +1,37 @@
+name: musik_flutter
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sensors_plus: ^7.0.0
+  shared_preferences: ^2.2.2
+  google_generative_ai: ^0.4.7
+  http: ^1.6.0
+  audioplayers: ^6.6.0
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  intl: ^0.20.2
+  local_auth: ^3.0.1
+  vibration: ^3.1.8
+  connectivity_plus: ^7.1.1
+  flutter_local_notifications: ^17.0.0
+  noise_meter: ^5.0.2
+  permission_handler: ^12.0.1
+  image_picker: ^1.1.2
+  geolocator: ^14.0.1
+  geocoding: ^4.0.0
+  get: ^4.6.6 # <-- Package GetX ditambahkan di sini
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
